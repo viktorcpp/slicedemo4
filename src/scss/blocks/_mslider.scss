@@ -40,7 +40,7 @@
     @include pos-abs( null, 50%, null, null, 1 );
     @include size( $size, $size );
 
-    margin: -#{$size/2} 0 0;
+    margin: - calc($size / 2) 0 0; 
     cursor: pointer;
 
     svg
